@@ -19,9 +19,9 @@ public:
     void operator==(Test1 t2)
     {
         if (a == t2.a)
-            cout << "a is equal";
+            cout << "objets is equal";
         else
-            cout << "a is not equal";
+            cout << "objets is not equal";
     }
 };
 int main()
