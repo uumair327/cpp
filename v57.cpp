@@ -23,5 +23,6 @@ public:
 int main()
 {
     der d;
+    
     return 0;
 }
