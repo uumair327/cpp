@@ -16,13 +16,12 @@ public:
     ~der()
     {
         cout << "Derived class Destructor" << endl;
-        // base::~base();
+        // ~base::base();
     }
 };
 
 int main()
 {
     der d;
-    
     return 0;
 }
