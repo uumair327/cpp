@@ -1,3 +1,4 @@
+//Moore's Voting Algorithm
 #include <vector>
 using std::vector;
 
