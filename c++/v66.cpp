@@ -16,7 +16,7 @@ int main()
 {
     int a[] = {1, 2, 3, 4, 5};
     float b[] = {1.1, 2.2, 3.3, 4.4, 5.5};
-    cout << sum(a, 5) << endl;
-    cout << sum(b, 5) << endl;
+    cout << sum(a, sizeof(a) / sizeof(a[0])) << endl;
+    cout << sum(b, sizeof(b) / sizeof(b[0])) << endl;
     return 0;
 }
