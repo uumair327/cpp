@@ -19,7 +19,7 @@ int main()
     try
     {
         Test t;
-        throw 10;
+        throw 10; // first destructor called than cathc block executed
         cout << "After Throw" << endl;
     }
     catch (...)
