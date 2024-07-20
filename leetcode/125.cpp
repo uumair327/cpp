@@ -1,9 +1,8 @@
 #include <vector>
 #include <iostream>
 #include <algorithm>
-using std::pair;
-using std::string;
-using std::vector;
+
+using namespace std;
 
 class Solution
 {
