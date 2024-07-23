@@ -17,8 +17,8 @@ public:
 
         for (const int price : prices)
         {
-            sell = max(sell, hold + price);
-            hold = max(hold, sell - price);
+            sell = std::max(sell, hold + price); // Use std::max here
+            hold = std::max(hold, sell - price); // Use std::max here
         }
 
         return sell;
