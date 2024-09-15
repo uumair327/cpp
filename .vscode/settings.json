@@ -3,5 +3,10 @@
         "ostream": "cpp",
         "iostream": "cpp"
     },
-    "C_Cpp.errorSquiggles": "enabled"
+    "C_Cpp.errorSquiggles": "enabled",
+    "maven.terminal.useJavaHome": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "debug.javascript.unmapMissingSources": true,
+    "javascript.experimental.updateImportsOnPaste": true
 }
