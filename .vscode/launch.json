@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "HashTable",
+            "request": "launch",
+            "mainClass": "HashTable",
+            "projectName": "cpp_734918be"
+        },
+        {
             "name": "(Windows) Launch",
             "type": "cppvsdbg",
             "request": "launch",

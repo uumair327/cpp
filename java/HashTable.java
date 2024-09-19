@@ -27,6 +27,13 @@ class HashTable {
 
         System.out.println(hm.size());
 
+        Set<String> keys = hm.keySet();
+        System.out.println(keys);
+
+        for (String k : keys) {
+            System.out.println("keys"+ k + ", Values " + hm.get(k));
+        }
+
         hm.clear();
 
         System.out.println(hm);

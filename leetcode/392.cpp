@@ -10,11 +10,11 @@ using std::vector;
 using std::string;
 class Solution
 {
-public:
+private:
     bool isSubsequence(string s, string t)
     {
         if (s.empty())
-            return true;
+            return false;
 
         int i = 0;
         for (const char c : t)
